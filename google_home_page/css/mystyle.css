@@ -1,0 +1,42 @@
+body{
+
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.top_row{
+
+	float: right;
+
+}
+
+.top_row a{
+	color: #919294;
+	font-size: 12pt;
+}
+
+.top_row nav{
+
+	margin-right: 5px;
+	padding: 10px;
+}
+
+.top_row span{
+
+	margin-right: 40px;
+}
+
+.top_row button{
+
+	margin-left: 20px;
+}
+
+.mlogo{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.centre{
+	margin: 0 auto;
+}
