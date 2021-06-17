@@ -1,7 +1,7 @@
 body{
 
 	padding: 0px;
-	margin: 0px;
+	
 	font-family: sans-serif;
 }
 
@@ -39,4 +39,22 @@ body{
 
 .centre{
 	margin: 0 auto;
+}
+
+.row span a{
+
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+.row span a:hover{
+
+	
+	text-decoration: underline;
+}
+
+.row span h6 a{
+
+	color:#919294;
+	margin-left: 20px;
 }
