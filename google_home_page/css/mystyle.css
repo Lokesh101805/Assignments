@@ -1,42 +1,75 @@
-body{
-
+*
+{
 	padding: 0px;
-	
 	font-family: sans-serif;
 }
-
-.top_row{
-
-	float: right;
-
+body{
+	padding: 0px;
+	font-family: sans-serif;
 }
-
+.top_row{
+	float: right;
+}
 .top_row a{
-	color: #919294;
+	color: #434344;
 	font-size: 12pt;
 }
-
 .top_row nav{
 
 	margin-right: 5px;
 	padding: 10px;
 }
-
 .top_row span{
-
 	margin-right: 40px;
 }
-
 .top_row button{
-
 	margin-left: 20px;
 }
-
-.mlogo{
-	text-align: center;
-	margin-top: 30px;
+.header-icon:hover{
+	box-shadow: 0 0 20px 0 rgb(196, 195, 195);
+	border-radius: 30px;
+}
+.header-btn:hover{
+	box-shadow: 0 0 20px 0 rgb(196, 195, 195);
+}
+.row section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20vh;
+}
+.search-bar{
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	height: 48px;
+	border:1px solid gainsboro;
+	border-radius: 30px;
+}
+.search-bar >input{
+	flex-grow: 1;
+	border: none;
+	outline: none;
+}
+.search-bar:hover{
+	box-shadow: 0 0 10px 0 gainsboro;
+}
+.search-bar img{
+	height: 40px;
+	width: 40px;
+	padding: 5px;
 }
 
+.row lan-bar{
+	
+}
+
+.btm-btns{
+	margin:3vh;
+}
+.btm-btns button:hover{
+	box-shadow: 0 0 20px 0 gainsboro;
+}
 .centre{
 	margin: 0 auto;
 }
@@ -57,4 +90,51 @@ body{
 
 	color:#919294;
 	margin-left: 20px;
+}
+
+footer{
+	background-color: #e7e5e5;
+	margin: 0px;
+	padding: 10px;
+	position:fixed;
+	bottom: 0;
+	left:0;
+	width:100vw;
+}
+footer .btm-bar{
+	height: auto;
+	padding: 10px 0 10px 40px;
+	border-bottom: 1px solid rgb(207, 207, 207);
+}
+footer .btm-bar a{
+	color:rgb(61,61,61);
+	text-decoration: none;
+	
+}
+footer .btm-bar a:hover{
+	text-decoration: underline;
+}
+footer nav ul{
+	display: inline;
+}
+footer nav ul a{
+	text-decoration: none;
+	color: rgb(61, 61, 61);
+	padding-left:10px;
+}
+footer nav ul a:hover{
+	color:rgb(36, 36, 36);
+	text-decoration: underline;
+}
+#f-left{
+	display: flex;
+	float: left;
+	padding-right: 20px;
+	align-items: center;
+}
+#f-right{
+	display: flex;
+	float: right;
+	
+	margin-right: 20px;
 }
